@@ -1,0 +1,20 @@
+{
+  "name": "jpdesk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "packager":"electron-packager ./ app --win --out ./App --arch=x64 --overwrite --ignore=node_modules --electron-zip-dir=./"
+  },
+  "author": "KAOZUOI",
+  "license": "ISC",
+  "dependencies": {
+    "cnpm": "^9.2.0",
+    "jquery": "^3.7.0"
+  },
+  "devDependencies": {
+    "electron": "^25.3.0"
+  }
+
+}
